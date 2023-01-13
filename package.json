@@ -1,0 +1,24 @@
+{
+  "name": "streamable-validate",
+  "version": "1.0.0",
+  "description": "Checks if a streamable URL is a valid video.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bradley-03/streamable-validate"
+  },
+  "keywords": [
+    "streamable",
+    "url",
+    "validate"
+  ],
+  "author": "bradley-03",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradley-03/streamable-validate/issues"
+  },
+  "homepage": "https://github.com/bradley-03/streamable-validate"
+}
