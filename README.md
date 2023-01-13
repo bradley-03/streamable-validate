@@ -7,7 +7,7 @@ Checks the validity of Streamable URLs.
 `npm install streamable-validate`
 
 ## URL Validity
-Valid URLs are streamable URLs that link to an existing video. Codes are case sensitive
+Valid URLs are streamable URLs that link to an existing video. Codes are case sensitive.
 #### Examples
 ```javascript
 const valid1 = "streamable.com/(valid code)"
@@ -26,6 +26,7 @@ const invalid3 = "streamable.com/(invalid code)"
 ---
 
 # Usage
+Function will return the video's ID if it is valid.
 ```javascript
 const {validateStreamableURL} = require('streamable-validate')
 
