@@ -16,7 +16,7 @@ const valid3 = "https://streamable.com/(valid code)"
 const valid4 = "https://www.streamable.com/(valid code)"
 const valid5 = "STREAMABLE.COM/(valid code)"
 ```
-### Invalid Examples
+#### Invalid Examples
 ```javascript
 const invalid1 = "not-streamable-link"
 const invalid2 = "streamable.com"
