@@ -3,12 +3,12 @@ Checks the validity of Streamable URLs.
 
 ---
 
-#Installation
+# Installation
 `npm install streamable-validate`
 
-##URL Validity
+## URL Validity
 Valid URLs are streamable URLs that link to a valid video. 
-####Examples
+#### Examples
 ```javascript
 const valid1 = "streamable.com/(valid code)"
 const valid2 = "wwww.streamable.com/(valid code)"
@@ -19,7 +19,7 @@ const valid5 = "STREAMABLE.COM/(valid code)"
 
 ---
 
-#Usage
+# Usage
 ```javascript
 const {validateStreamableURL} = require('streamable-validate')
 
