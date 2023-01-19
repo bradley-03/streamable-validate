@@ -38,3 +38,10 @@ validateStreamableURL(url)
         // handle error
     })
 ```
+
+Function will get the ID from a URL.
+```javascript
+const {streamableIdFromURL} = require('streamable-validate')
+
+const urlId = streamableIdFromURL(url) 
+```

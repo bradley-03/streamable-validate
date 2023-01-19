@@ -1,6 +1,6 @@
 const https = require('https');
 
-module.exports.validateStreamableURL = function (url) {
+function validateStreamableURL (url) {
     return new Promise ((resolve, reject) => {
         if (!url) {
             reject('ERROR: No URL provided.');
@@ -40,4 +40,6 @@ function streamableIdFromURL (url) { // also checks if link is a streamable link
         return null;
     }
 }
+
+module.exports = {streamableIdFromURL, validateStreamableURL}
 
